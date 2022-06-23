@@ -23,14 +23,3 @@ exit.addEventListener("click", function () {
 });
 
 // Responsive
-
-menu.addEventListener("click", function () {
-  close1.style.display = "block";
-  menu.style.display = "none";
-  active.style.display = "block";
-});
-
-close1.addEventListener("click", function () {
-  menu.style.display = "block";
-  close1.style.display = "none";
-});
